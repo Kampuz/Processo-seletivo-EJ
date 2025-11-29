@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "DM-Sans", sans-serif;
+    color: #e7e7e7;
+}
+
+html,
+    body { 
+        width: 100%;
+        height: auto;
+        background: darkblue;
+        display: grid;
+        grid-auto-rows: 0.2fr 3fr 0.5fr ;
+    }
+
+    header{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 1rem;
+        font-size: 1.2rem;
+    }
+    footer{
+        width: 100%;
+        height: 2%;
+        
+    }
+
+.ejcomp{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.ejcomp:hover {opacity: 1;}
+
+.nav-links{list-style: none;}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0rem 2rem;
+}
+.nav-links  li a{
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+}
+.nav-links  li a:hover, .active{
+    text-decoration: underline;
+    color: orange;
+    font: bold;
+}
+
+.unesp {
+    cursor: pointer;
+    height: 100%;
+    right: 0px;
+}
+
+.servicos {
+    padding-top: 2%;
+    padding-left: 4%;
+}
+.servicos img{
+    width: 400px;
+    display: inline-block;
+    border: 2px solid white;
+
+}
+
+.icones svg{
+    margin: 0rem 4rem;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+}
+.contato{
+    padding-left: 1rem;
+}
+.contato a{
+text-decoration: none;
+transition: all 0.2s ease 0s;
+}
+.contato a:hover, .active{
+    text-decoration: underline;
+    color: lightblue;
+}
